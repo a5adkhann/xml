@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE students [
+    <!ELEMENT students (name+,age?, (email|mobile))>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT age (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+    <!ELEMENT mobile (#PCDATA)>
+
+]>
+<students>
+    
+    <name>abc</name>
+    <name>def</name>
+    <age>22</age>
+    
+    <mobile>abc@gmail.com</mobile>
+ 
+
+
+
+</students>

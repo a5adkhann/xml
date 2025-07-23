@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<students xmlns:a="http://www.demo.com"
+    xmlns:b="http://www.demo.com/mynamespace" 
+    xmlns="http://www.demo.com/abc"
+    >
+    <student>
+        <a:name>Ali</a:name>
+    </student>
+
+    <student>
+        <b:name>Ali</b:name>
+    </student>
+
+    <student>
+        <name>Ali</name>
+    </student>
+</students>

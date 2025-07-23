@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<root-element>
+    <Students>
+        <name>Asad</name>
+        <email>asad@gmail.com</email>
+        <password>abc</password>
+    </Students>
+
+    <emp>
+        <name>Ahmed</name>
+        <email>ahmed@gmail.com</email>
+    </emp>
+</root-element>
