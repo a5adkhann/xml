@@ -1,20 +1,34 @@
 <?xml version="1.0"?>
 <!DOCTYPE students [
-    <!ELEMENT students (name+,age?, (email|mobile))>
+    <!ELEMENT students (Student*)>
+    <!ELEMENT Student (name, age)>
     <!ELEMENT name (#PCDATA)>
     <!ELEMENT age (#PCDATA)>
-    <!ELEMENT email (#PCDATA)>
-    <!ELEMENT mobile (#PCDATA)>
 
+    <!ENTITY a "hello">
+    <!ENTITY b "world">
+
+    <!-- <!ATTLIST Student id CDATA #REQUIRED> -->
+    <!-- <!ATTLIST Student id CDATA #IMPLIED> -->
+    <!ATTLIST Student id CDATA #FIXED "ABC">
 ]>
 <students>
     
-    <name>abc</name>
-    <name>def</name>
-    <age>22</age>
+    <Student>
+        <name>&a;</name>
+        <age>23</age>
+    </Student>
+
+    <Student id="ABC">
+        <name>&b;</name>
+        <age>23</age>
+    </Student>
+
     
-    <mobile>abc@gmail.com</mobile>
- 
+    <Student>
+        <name>Student3</name>
+        <age>23</age>
+    </Student>
 
 
 

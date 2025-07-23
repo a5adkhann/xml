@@ -1,0 +1,15 @@
+We use DTD to validate elements in XML.
+PCData is Parse Corrector Data. It is to convert data to corrector data.
+
+2no elements ko aik sath use nhi kar sakty agr or lagaya hua h beech m to.
+
+Entity is like a variable in XML.
+
+Entity can be accessed with & symbol.
+
+----
+
+3 tareeqon sy attribute define hota h
+implied
+required
+fixed
