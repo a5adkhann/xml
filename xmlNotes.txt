@@ -1,7 +1,7 @@
 We use DTD to validate elements in XML.
-PCData is Parse Corrector Data. It is to convert data to corrector data.
+PCData is Parse Character Data. It is to convert data to Character data.
 
-2no elements ko aik sath use nhi kar sakty agr or lagaya hua h beech m to.
+2no elements ko aik sath use nhi kar sakty agr OR, | lagaya hua h beech m to.
 
 Entity is like a variable in XML.
 
