@@ -1,16 +1,7 @@
 <?xml version="1.0"?>
-<!DOCTYPE students [
-    <!ELEMENT students (Student*)>
-    <!ELEMENT Student (name, age)>
-    <!ELEMENT name (#PCDATA)>
-    <!ELEMENT age (#PCDATA)>
-
-    <!ENTITY a "hello">
+<!DOCTYPE students SYSTEM "ExternalDTD.dtd" [
+     <!ENTITY a "hello">
     <!ENTITY b "world">
-
-    <!-- <!ATTLIST Student id CDATA #REQUIRED> -->
-    <!-- <!ATTLIST Student id CDATA #IMPLIED> -->
-    <!ATTLIST Student id CDATA #FIXED "ABC">
 ]>
 <students>
     

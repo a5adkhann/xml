@@ -1,0 +1,8 @@
+<!ELEMENT students (Student*)>
+    <!ELEMENT Student (name, age)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT age (#PCDATA)>
+
+    <!-- <!ATTLIST Student id CDATA #REQUIRED> -->
+    <!-- <!ATTLIST Student id CDATA #IMPLIED> -->
+    <!ATTLIST Student id CDATA #FIXED "ABC">
